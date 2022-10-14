@@ -3,7 +3,7 @@
 # Пример:
 import random
 
-list1 = [random.randint(1,10) for i in range(0,5)]
+list1 = [random.randint(1,10) for i in range(0,10)]
 print(list1)
 list2 = [list1[i] for i in range(1, len(list1), 2)]
 print(list2)
