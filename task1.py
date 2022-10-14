@@ -4,12 +4,7 @@
 from math import *
 n = int(input("Введите положительное число N:  "))
 if n < 1:
-    print("Неправильно ввели, число должно быть положительное")
+    print("Неправильно ввели число, оно должно быть положительное")
 else:
     list1 = [factorial(i) for i in range(1, n + 1)] 
     print(list1)
-# Задача3.
-# a =int(input())
-# b =int(input())
-# x = lambda a, b: a**2 == b or b**2 == a
-# print(x(a,b))
